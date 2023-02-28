@@ -1,0 +1,85 @@
+/*classe*/
+.title {
+    text-align: center;
+}
+
+/*header &vp*/
+
+.vp-container header {
+    flex-direction: column;
+}
+
+.vp-container header ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.vp-container header ul li {
+    border-bottom: 1px dotted #ddd;
+}
+
+.vp-container .vp .vp-content h1 {
+    font-size: 2.3rem;
+    padding: 0 2rem;
+}
+
+.vp-container .vp .vp-content p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/*offer*/
+
+
+
+.offer {
+    padding: 5rem 1rem 5rem 1rem;
+}
+
+.offer .offert-list {
+    flex-direction: column;
+}
+
+/*who content*/
+.who {
+    flex-direction: column-reverse;
+
+}
+
+.who .who-content-img {
+    min-height: 300px;
+}
+
+.who .who-content-text {
+    padding: 4rem 2rem;
+}
+
+/*testimoninals*/
+
+.testimoninals .testimoninals-content .testimoninals-elmt {
+    flex-direction: column;
+}
+
+.testimoninals .testimoninals-content .testimoninals-elmt-reverse {
+    flex-direction: column-reverse;
+}
+
+.testimoninals .testimoninals-content .testimoninals-elmt .testimoninals-elmt-profil {
+    text-align: center;
+}
+
+.testimoninals .testimoninals-content .testimoninals-elmt .testimoninals-elmt-profil img {
+    display: block;
+    margin: 1rem auto;
+}
+
+/*contact*/
+
+.contact {
+    padding: 5rem 1rem;
+}
+
+.contact .form-contact button {
+    margin: 3rem auto 0 auto;
+}
